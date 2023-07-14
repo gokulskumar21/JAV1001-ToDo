@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <!-- linear layout contains the EditText, Button, and listView elements -->
     <LinearLayout
         android:layout_width="409dp"
@@ -14,31 +15,36 @@
         tools:layout_editor_absoluteX="2dp"
         tools:layout_editor_absoluteY="0dp"
         tools:ignore="MissingConstraints">
-        <!-- EditText element allows the user to input new items -->
+
+        <!-- EditText elements for user input -->
         <EditText
             android:id="@+id/editText"
             android:layout_width="350dp"
             android:layout_height="75dp"
             android:ems="10"
             android:gravity="center"
-            android:inputType="text"/>
-        <!--creates vertical space between the EditText and Button elements -->
+            android:inputType="text"
+            android:hint="Enter the items that you want to add"/>
+
+        <!-- Vertical space between the EditText and Button elements -->
         <Space
             android:layout_width="match_parent"
             android:layout_height="50dp" />
-        <!-- Button element adds new items to the list -->
+
+        <!-- Button element to add new items to the list -->
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Add List"/>
-        <!--creates vertical space between the EditText and Button elements -->
 
+        <!-- Vertical space between the EditText and Button elements -->
         <Space
             android:layout_width="match_parent"
             android:layout_height="50dp" />
-        <!-- This ListView element displays the list of items -->
+
+        <!-- ListView element to display the list of items -->
         <ListView
             android:layout_width="wrap_content"
             android:layout_height="250dp"
