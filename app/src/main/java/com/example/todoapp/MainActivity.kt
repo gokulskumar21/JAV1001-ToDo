@@ -1,3 +1,8 @@
+//In this project we worked in group with Davinder Kumar (A00278772), Gokul Saji Kumar (A00273682), Kamaljit Kaur (A00278618)
+//We did brainstorming together to create layout and logic of the code.
+//Gokul Saji Kumar created the layout section defining the edit text, button and list view elements.
+//Davinder kumar worked on main_activity part that is setting up class and extending AppCombatActivity
+//Kamaljit Kaur created list views with new items and also the click listener for removing items from the list.
 package com.example.todoapp
 
 import androidx.appcompat.app.AppCompatActivity
